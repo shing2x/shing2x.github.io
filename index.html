@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;  
+}
+
+body {
+  min-height: 100%;  
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 700px;   
+  background: #fff;
+  margin: 0px auto 0px; 
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;  
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 30px;
+  
+  .full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .first-name {
+    font-weight: 700;
+  }
+  
+  .last-name {
+    font-weight: 300;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .email ,
+  .phone {
+    color: #999;
+    font-weight: 300;
+  } 
+  
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+  
+  .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+}
+
+
+.details {
+  line-height: 20px;
+  
+  .section {
+    margin-bottom: 40px;  
+  }
+  
+  .section:last-of-type {
+    margin-bottom: 0px;  
+  }
+  
+  .section__title {
+    letter-spacing: 2px;
+    color: #54AFE4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .section__list-item {
+    margin-bottom: 40px;
+  }
+  
+  .section__list-item:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .left ,
+  .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+  
+  .left {
+    width: 60%;    
+  }
+  
+  .right {
+    tex-align: right;
+    width: 39%;    
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .skills {
+    
+  }
+    
+  .skills__item {
+    margin-bottom: 10px;  
+  }
+  
+  .skills__item .right {
+    input {
+      display: none;
+    }
+    
+    label {
+      display: inline-block;  
+      width: 20px;
+      height: 20px;
+      background: #C3DEF3;
+      border-radius: 20px;
+      margin-right: 3px;
+    }
+    
+    input:checked + label {
+      background: #79A9CE;
+    }
+  }
+}
+</style>
+<img style="position:absolute; margin-left:870px; margin-top: 20px; width: 110px; height: 95px;" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/433459854_3633825206857005_7064855965294649331_n.jpg?stp=dst-jpg_s206x206&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGzIdQYI1g0Dm_-1dk1enonY8TwIVGD0ftjxPAhUYPR-wY6n0pDPUwWR0JDUQrDGL0rlJFUdGZ-xTrwpthEw_H-&_nc_ohc=5k394tdA0kgAX_Tn8yW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_AdVTt_r2g7Q80SjHS8in_cMd1CE08YC3l4QuOIp4VsFrnw&oe=66343FE7">
+
+</head>
+<body>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+<div class="container">
+  <div class="header">
+    <div class="full-name">
+      <span class="first-name">Shirly</span> 
+      <span class="last-name">Uy</span>
+    </div>
+    <div class="contact-info">
+      <span class="email">Email: shirlyuy146@gmail.com </span>
+      <span class="email-val">shirlyuy146@gmail.com</span>
+      <span class="separator"></span>
+      <span class="phone">Phone: 09500986898</span>
+      <span class="phone-val">09500986898</span>
+    </div>
+    
+    <div class="about">
+      <span class="position">Software Engineer</span>
+      <span class="desc">
+        I am a Software Engineer with more than 3 years of experience writing html and css. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow. 
+      </span>
+    </div>
+  </div>
+   <div class="details">
+    <div class="section">
+      <div class="section__title">Experience</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">XYZ Company</div>
+            <div class="addr">Korea, Seoul</div>
+            <div class="duration">Sep 2024 - Feb 2026</div>
+          </div>
+          <div class="right">
+            
+          </div>
+        </div>
+                <div class="section__list-item">
+          <div class="left">
+            <div class="name">ABC Company</div>
+            <div class="addr">France, Paris</div>
+            <div class="duration">June 2027 - June 2030</div>
+          </div>
+          <div class="right">
+           
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__title">Education</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">University of Science and Technology of Southern Philippines</div>
+            <div class="addr">Mobod, Oroquieta City</div>
+            <div class="duration">Sep 2022 - March 2025</div>
+          </div>
+          <div class="right">
+           
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Deboloc Elementary School</div>
+            <div class="addr">Plaridel, Misamis Occidental</div>
+          </div>
+          <div class="right">
+            
+          </div>
+        </div>
+
+      </div>
+      
+  </div>
+     <div class="section">
+      <div class="section__title">Projects</div> 
+       <div class="section__list">
+         <div class="section__list-item">
+           <div class="name">E-Commerce Website</div>
+           <div class="text">Building a basic online shopping website can teach you a lot about combining front-end and back-end development skills. That means that it would allow users to browse products, add specific ones to a cart, and then check out using a payment gateway.</div>
+         </div>
+         
+         <div class="section__list-item">
+                    <div class="name">Text Editor</div>
+           <div class="text">A text editor is an application that allows you to type out and format text on a digital device, such as Microsoft Word or Google Docs. The challenging part of creating such an application is building out the graphical user interface (GUI).
+           </div>
+         </div>
+       </div>
+    </div>
+     <div class="section">
+       <div class="section__title">Skills</div>
+       <div class="skills">
+         <div class="skills__item">
+           <div class="left"><div class="name">
+             HTML
+             </div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+       <div class="skills__item">
+           <div class="left"><div class="name">
+             CSS</div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+          <div class="section">
+     <div class="section__title">
+       Interests
+       </div>
+       <div class="section__list">
+         <div class="section__list-item">
+                  Music, Dancing, Food, Quality time with myself, Badmintoon, and making codes when I'm bored.
+          </div>
+       </div>
+     </div>
+     </div>
+  </div>
+</div>
+</body>
+</html>
